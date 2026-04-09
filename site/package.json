@@ -6,7 +6,7 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
-    "sync-raw": "rm -rf raw && cp -r ../raw ."
+    "postinstall": "node scripts/link-raw.cjs"
   },
   "devDependencies": {
     "vitepress": "^1.5.0"
