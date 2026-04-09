@@ -44,6 +44,9 @@ export default defineConfig({
   // Build configuration
   cleanUrls: false,
   lastUpdated: true,
+  sitemap: {
+    hostname: 'https://mind.value888.site',
+  },
 
   // Ignore dead links for now
   ignoreDeadLinks: true,

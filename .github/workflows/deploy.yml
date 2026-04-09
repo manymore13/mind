@@ -45,6 +45,14 @@ jobs:
       - name: Add .nojekyll
         run: touch site/dist/.nojekyll
 
+      - name: Add robots.txt
+        run: |
+          cat > site/dist/robots.txt << 'EOF'
+          User-agent: *
+          Allow: /
+          Sitemap: https://mind.value888.site/sitemap.xml
+          EOF
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
