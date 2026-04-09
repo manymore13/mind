@@ -6,8 +6,8 @@ dist/
 .vitepress/dist/
 .vitepress/cache/
 
-# Synced raw directory (copied from ../raw during build)
-raw/
+# Synced raw directory (symlink or copied from ../raw)
+raw
 
 # OS files
 .DS_Store
