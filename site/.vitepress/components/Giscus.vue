@@ -8,14 +8,14 @@ const giscusContainer = ref<HTMLElement | null>(null)
 // Giscus configuration
 // TODO: Replace with your own Giscus configuration from https://giscus.app/
 const giscusConfig = {
-  repo: 'your-username/your-repo',           // GitHub repository
-  repoId: 'your-repo-id',                    // Repository ID
-  category: 'Announcements',                 // Discussions category
-  categoryId: 'your-category-id',            // Category ID
-  mapping: 'pathname',                       // Page mapping
+  repo: 'manymore13/mind-river',
+  repoId: 'R_kgDOR90hPg',
+  category: 'Announcements',
+  categoryId: 'DIC_kwDOR90hPs4C6c0t',
+  mapping: 'pathname',
   reactionsEnabled: '1',
   emitMetadata: '0',
-  inputPosition: 'top',
+  inputPosition: 'bottom',
   theme: 'preferred_color_scheme',
   lang: 'zh-CN',
   loading: 'lazy'
@@ -52,9 +52,6 @@ watch(isDark, () => {
 <template>
   <div class="giscus-container">
     <div ref="giscusContainer" class="giscus"></div>
-    <p class="giscus-note">
-      评论功能需要配置 Giscus。请在 <a href="https://giscus.app/" target="_blank">giscus.app</a> 生成配置并更新 Giscus.vue 中的参数。
-    </p>
   </div>
 </template>
 
@@ -64,14 +61,4 @@ watch(isDark, () => {
   padding-top: 1rem;
 }
 
-.giscus-note {
-  font-size: 0.875rem;
-  color: var(--vp-c-text-3);
-  text-align: center;
-  margin-top: 1rem;
-}
-
-.giscus-note a {
-  color: var(--vp-c-brand-1);
-}
 </style>
