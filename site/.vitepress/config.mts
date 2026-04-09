@@ -42,7 +42,7 @@ export default defineConfig({
   ],
 
   // Build configuration
-  cleanUrls: true,
+  cleanUrls: false,
   lastUpdated: true,
 
   // Ignore dead links for now
