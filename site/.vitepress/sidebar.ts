@@ -5,7 +5,9 @@ export default {
     {
       text: '原始资料',
       items: [
-        { text: '如何构建个人知识库', link: '/raw/how-to-build-knowledge-base' }
+        { text: '文章列表', link: '/raw/' },
+        { text: '如何构建个人知识库', link: '/raw/how-to-build-knowledge-base' },
+        { text: '猎豹移动全球化扩张战略与产品认知管理深度研究报告', link: '/raw/学习猎豹产品哲学与出海' }
       ]
     }
   ],
