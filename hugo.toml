@@ -92,7 +92,7 @@ favicon = "img/favicon.png"
 
         [params.comments.giscus]
             # 将以下所有 'XXXXX' 替换为你的实际数据
-            repo = "manymore13/blog-comments"
+            repo = "manymore13/mind"
             repoID = "R_kgDOR90hPg"
             category = "Announcements"
             categoryID = "DIC_kwDOR90hPs4C6c0t"
