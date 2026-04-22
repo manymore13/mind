@@ -47,6 +47,18 @@ favicon = "img/favicon.png"
         analytics  = true
         functional = true
 
+[markup]
+  [markup.highlight]
+    style = "onedark"          # 配色风格，见下方可选列表
+    lineNos = false            # 是否显示行号
+    lineNumbersInTable = true  # 行号样式（true 更好看）
+    noClasses = false          # 必须设为 false，配合自定义 CSS
+    codeFences = true          # 支持 ``` 代码块
+    guessSyntax = true         # 自动猜测语言
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
 # ==========================================
 # 2. Params 主题深度定制
 # ==========================================
