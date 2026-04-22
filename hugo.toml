@@ -1,12 +1,18 @@
 baseURL = "https://mind.value888.site/"
 languageCode = "zh-cn"
 title = "长河落日圆"
-theme = "PaperMod"
+theme = "stack"
 
 # 关键：让 Hugo 使用根目录下的 post/ 作为内容目录
-contentDir = "post"
+contentDir = "posts"
+# 开启 CJK（中日韩）语言支持，必填
+hasCJKLanguage = true
+
+# 建议设置摘要长度（字符数）
+summaryLength = 140
 
 [params]
+mainSections = ["notes"]
 ShowReadingTime = true
 ShowShareButtons = false
 ShowPostNavLinks = true
