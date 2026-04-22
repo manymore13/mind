@@ -20,6 +20,33 @@ favicon = "img/favicon.png"
     tag = "tags"
     series = "series"
 
+[colorScheme]
+    toggle  = true
+    default = "auto"
+
+[imageProcessing]
+    autoOrient = false
+
+    [imageProcessing.external]
+        timeout = "5s"
+
+    [imageProcessing.content]
+        widths  = [800, 1600, 2400]
+        enabled = true
+
+    [imageProcessing.thumbnail]
+        enabled = true
+
+# GDPR Cookie Consent Configuration
+# When enabled, analytics and functional cookies require user consent
+[cookies]
+    enabled      = false
+    showSettings = true
+
+    [cookies.categories]
+        analytics  = true
+        functional = true
+
 # ==========================================
 # 2. Params 主题深度定制
 # ==========================================
@@ -69,10 +96,14 @@ favicon = "img/favicon.png"
             repoID = "R_kgDOR90hPg"
             category = "Announcements"
             categoryID = "DIC_kwDOR90hPs4C6c0t"
-            mapping = "pathname"
+            mapping = "title"
             theme = "preferred_color_scheme"
             reactionsEnabled = 1
-            lang = "zh-CN"
+            emitMetadata     = 0
+            inputPosition    = "top"
+            lang             = "en"
+            strict           = 0
+            loading          = "lazy"
 
 # ==========================================
 # 3. 主导航菜单 (Main Menu)
