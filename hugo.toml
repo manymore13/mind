@@ -64,7 +64,7 @@ favicon = "img/favicon.png"
 # ==========================================
 [params]
 
-    mainSections = ["notes", "prompt"]
+    mainSections = ["notes", "prompt", "technology"]
     featuredImageField = "image"
 
     # 界面显示控制
