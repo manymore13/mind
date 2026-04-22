@@ -1,6 +1,6 @@
-baseURL = "https://river.value888.site/"
+baseURL = "https://mind.value888.site/"
 languageCode = "zh-cn"
-title = "长河"
+title = "长河落日圆"
 theme = "PaperMod"
 
 # 关键：让 Hugo 使用根目录下的 post/ 作为内容目录
