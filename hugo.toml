@@ -1,0 +1,18 @@
+baseURL = "https://river.value888.site/"
+languageCode = "zh-cn"
+title = "长河"
+theme = "PaperMod"
+
+# 关键：让 Hugo 使用根目录下的 post/ 作为内容目录
+contentDir = "post"
+
+[params]
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+
+[menu]
+[[menu.main]]
+name = "归档"
+url = "/archives/"
+weight = 5
