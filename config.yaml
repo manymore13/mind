@@ -1,0 +1,65 @@
+baseURL: ""
+languageCode: "zh-cn"
+title: "长河落日圆"
+theme: "zen-paper"
+
+hasCJKLanguage: true
+
+params:
+  description: "收藏与创作，记录思考与发现"
+  mainSections: ["notes", "prompt", "technology"]
+  enableToc: true
+  enableSearch: true
+  enableReadingTime: true
+  enableProgressBar: true
+  enableBackToTop: true
+  enablePostNavLinks: true
+  colorMode: "auto"
+  enableComments: true
+  comments:
+    provider: "giscus"
+    giscus:
+      repo: "manymore13/mind"
+      repoID: "R_kgDOR90hPg"
+      category: "Announcements"
+      categoryID: "DIC_kwDOR90hPs4C6c0t"
+      mapping: "title"
+      theme: "preferred_color_scheme"
+      reactionsEnabled: 1
+      emitMetadata: 0
+      inputPosition: "top"
+      lang: "en"
+      strict: 0
+      loading: "lazy"
+  intro:
+    title: "长河落日圆"
+    text: "知行合一，记录思考与发现"
+
+markup:
+  highlight:
+    style: "github-dark"
+    lineNos: true
+    noClasses: false
+
+outputs:
+  home:
+    - HTML
+    - JSON
+
+menu:
+  main:
+    - name: "首页"
+      url: "/"
+      weight: 1
+    - name: "笔记"
+      url: "/notes/"
+      weight: 2
+    - name: "技术"
+      url: "/technology/"
+      weight: 3
+    - name: "提示词"
+      url: "/prompt/"
+      weight: 4
+    - name: "归档"
+      url: "/archives/"
+      weight: 5

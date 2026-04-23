@@ -1,6 +1,6 @@
 ---
 title: 彻底搞懂HTTPS的加密原理
-created: 2026-04-23T02:23:54 (UTC +08:00)
+date: 2026-04-22
 tags: [HTTPS,前端开发,数字证书]
 source: https://zhuanlan.zhihu.com/p/43789231
 draft: false

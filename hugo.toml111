@@ -4,7 +4,7 @@
 baseURL = "https://mind.value888.site/"
 languageCode = "zh-cn"
 title = "长河落日圆"
-theme = "stack"
+theme = "clarity"
 
 # 删除 contentDir 行（使用默认值 content 目录）
 
