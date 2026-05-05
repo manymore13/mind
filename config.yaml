@@ -63,3 +63,6 @@ menu:
     - name: "归档"
       url: "/archives/"
       weight: 5
+    - name: "研报"
+      url: "/report/"
+      weight: 6  
